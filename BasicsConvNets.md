@@ -8,6 +8,8 @@ Convolutional neural networks use three basic ideas: local receptive fields, sha
 
 - **Local receptive fields**: Instead of connecting each hidden neuron to all input neurons (as is the case in fully-connected architecture), each neuron in the first hidden layer is connected to a small region of (spatially adjacent) input neurons. 
 
+[[https://github.com/srujana311/Notes-ML-wanderings/tree/master/Imgs/Local receptive field.png,alt=noned]]
+
 > For example, a small 5 x 5 region, corresponding to 25 pixels. That region in the input image is called the *local receptive field* for the hidden neuron. It's a little window on the input pixels. Each connection learns a weight. And the hidden neuron learns an overall bias as well. You can think of that particular hidden neuron as learning to analyze its particular local receptive field.
 
 - **Shared weights**:
